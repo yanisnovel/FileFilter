@@ -1,18 +1,25 @@
-📂 FileFilter
-FileFilter est un script d'automatisation en Python conçu pour organiser intelligemment un dossier encombré (comme le dossier Téléchargements) en triant les fichiers par catégories dans des sous-dossiers dédiés.
+# 📂 FileFilter
 
-🚀 Fonctionnalités
-Tri automatique : Analyse les extensions des fichiers (.pdf, .jpg, .zip, etc.) et les déplace dans des dossiers thématiques (Documents, Images, Archives...).
+**FileFilter** est un script d'automatisation développé en **Python** pour organiser intelligemment les dossiers encombrés (comme le dossier `Téléchargements`). Il trie automatiquement les fichiers dans des sous-dossiers thématiques en fonction de leurs extensions.
 
-Gestion intelligente des dossiers : Crée automatiquement les dossiers de destination s'ils n'existent pas encore.
+---
 
-Cross-platform : Utilise la bibliothèque os pour fonctionner aussi bien sur Windows que sur Linux/macOS.
+## ✨ Fonctionnalités
 
-Sécurité : Ne traite que les fichiers et ignore les dossiers déjà existants pour éviter les erreurs de récursion.
+* **Tri Intelligent :** Identifie et classe les fichiers (Images, Documents, Vidéos, Archives, etc.).
+* **Gestion Automatique :** Crée les dossiers de destination s'ils n'existent pas encore.
+* **Multi-plateforme :** Utilise `os.path` pour garantir la compatibilité entre Windows, macOS et Linux.
+* **Sécurité :** Ne traite que les fichiers à la racine du dossier cible pour éviter de modifier des structures de dossiers existantes.
 
-🛠️ Technologies utilisées
-Python 3.x
+## 🛠️ Technologies & Bibliothèques
 
-Module os : Pour la navigation dans le système de fichiers et la gestion des chemins.
+* **Langage :** Python 3.x
+* **Module `os` :** Navigation dans le système de fichiers et gestion des chemins.
+* **Module `shutil` :** Manipulation et déplacement sécurisé des fichiers.
 
-Module shutil : Pour les opérations de déplacement de fichiers à haut niveau.
+## 🚀 Installation & Utilisation
+
+1. **Cloner le projet**
+   ```bash
+   git clone [https://github.com/ton-pseudo/FileFilter.git](https://github.com/ton-pseudo/FileFilter.git)
+   cd FileFilter
